@@ -1058,6 +1058,7 @@ body {
 .main_container__cpe-services #a_cpe-services:hover {
   background-color: #fffce5;
   color: #031837;
+  border: solid 1px #031837;
 }
 
 /*###############################*/
