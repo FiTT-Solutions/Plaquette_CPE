@@ -290,6 +290,7 @@ body {
 @media only screen and (max-width: 500px) {
   .main_container__introduction {
     margin-top: 3em;
+    width: 95%;
   }
 }
 .main_container__introduction h1 {
@@ -416,7 +417,7 @@ body {
 }
 @media only screen and (max-width: 500px) {
   .main_container__introduction .green-box__introduction {
-    margin: 2em 5%;
+    margin: 2em 2%;
     border-radius: 10px;
   }
 }
@@ -495,5 +496,561 @@ body {
 }
 
 /*###############################*/
-/*######### 1ère partie #########*/
-/*###############################*//*# sourceMappingURL=style.css.map */
+/*######### CPE Travaux #########*/
+/*###############################*/
+.main_container__cpe-travaux {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #031837;
+  width: 100%;
+  padding: 3em 0 4em;
+}
+.main_container__cpe-travaux h2 {
+  width: 75%;
+  font-size: 40px;
+  color: #fffce5;
+  text-align: center;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-travaux h2 {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-travaux h2 {
+    font-size: 24px;
+  }
+}
+.main_container__cpe-travaux .choice__cpe-travaux {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-travaux .choice__cpe-travaux {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.main_container__cpe-travaux .choice__cpe-travaux .box-choice-cpe-travaux {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+  margin-top: 5em;
+  padding: 1.5em 0 2em;
+  background-color: #fffce5;
+  border-radius: 15px;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-travaux .choice__cpe-travaux .box-choice-cpe-travaux {
+    margin-top: 3em;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-travaux .choice__cpe-travaux .box-choice-cpe-travaux {
+    margin-top: 1em;
+    width: 95%;
+    padding: 1em 0 1em;
+    border-radius: 10px;
+  }
+}
+.main_container__cpe-travaux .choice__cpe-travaux .box-choice-cpe-travaux h4 {
+  width: 90%;
+  font-size: 26px;
+  color: #031837;
+  margin-bottom: 1em;
+  text-align: center;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-travaux .choice__cpe-travaux .box-choice-cpe-travaux h4 {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-travaux .choice__cpe-travaux .box-choice-cpe-travaux h4 {
+    font-size: 18px;
+  }
+}
+.main_container__cpe-travaux .choice__cpe-travaux .box-choice-cpe-travaux .description-box-choice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_container__cpe-travaux .choice__cpe-travaux .box-choice-cpe-travaux .description-box-choice .row-decription-box-choice {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1em;
+  width: 80%;
+}
+.main_container__cpe-travaux .choice__cpe-travaux .box-choice-cpe-travaux .description-box-choice .row-decription-box-choice img {
+  width: 15px;
+  height: 15px;
+  margin-right: 1em;
+  margin-top: 6px;
+  filter: invert(69%) sepia(57%) saturate(401%) hue-rotate(334deg) brightness(99%) contrast(95%);
+}
+.main_container__cpe-travaux .choice__cpe-travaux .box-choice-cpe-travaux .description-box-choice .row-decription-box-choice p {
+  font-size: 18px;
+  color: #031837;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-travaux .choice__cpe-travaux .box-choice-cpe-travaux .description-box-choice .row-decription-box-choice p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-travaux .choice__cpe-travaux .box-choice-cpe-travaux .description-box-choice .row-decription-box-choice p {
+    font-size: 14px;
+  }
+}
+.main_container__cpe-travaux .choice__cpe-travaux img {
+  width: 150px;
+  height: 150px;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-travaux .choice__cpe-travaux img {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-travaux .choice__cpe-travaux img {
+    width: 0;
+    height: 0;
+  }
+}
+.main_container__cpe-travaux .box-fitt-solution__cpe-travaux_saumon {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6ab78;
+  width: 76%;
+  margin: 4em 0 4em;
+  padding: 0 3px 3px;
+  border-radius: 15px;
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-travaux .box-fitt-solution__cpe-travaux_saumon {
+    border-radius: 10px;
+    width: 90%;
+  }
+}
+.main_container__cpe-travaux .box-fitt-solution__cpe-travaux_saumon h4 {
+  font-size: 26px;
+  color: #fffce5;
+  margin: 1em 0.5em;
+  text-align: center;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-travaux .box-fitt-solution__cpe-travaux_saumon h4 {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-travaux .box-fitt-solution__cpe-travaux_saumon h4 {
+    font-size: 18px;
+  }
+}
+.main_container__cpe-travaux .box-fitt-solution__cpe-travaux_saumon .box-interieur_creme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  background-color: #fffce5;
+  width: 100%;
+  padding: 2em 5em 4em;
+  border-radius: 15px;
+  border: solid 2px #031837;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-travaux .box-fitt-solution__cpe-travaux_saumon .box-interieur_creme {
+    padding: 1em 3em 4em;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-travaux .box-fitt-solution__cpe-travaux_saumon .box-interieur_creme {
+    border-radius: 10px;
+    padding: 1em 1em 4em;
+  }
+}
+.main_container__cpe-travaux .box-fitt-solution__cpe-travaux_saumon .box-interieur_creme .row-box-interieur {
+  display: flex;
+  align-items: flex-start;
+  margin: 1em 0;
+}
+.main_container__cpe-travaux .box-fitt-solution__cpe-travaux_saumon .box-interieur_creme .row-box-interieur img {
+  width: 15px;
+  height: 15px;
+  margin-right: 1em;
+  margin-top: 6px;
+  filter: invert(69%) sepia(57%) saturate(401%) hue-rotate(334deg) brightness(99%) contrast(95%);
+}
+.main_container__cpe-travaux .box-fitt-solution__cpe-travaux_saumon .box-interieur_creme .row-box-interieur p {
+  font-size: 18px;
+  color: #031837;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-travaux .box-fitt-solution__cpe-travaux_saumon .box-interieur_creme .row-box-interieur p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-travaux .box-fitt-solution__cpe-travaux_saumon .box-interieur_creme .row-box-interieur p {
+    font-size: 14px;
+  }
+}
+.main_container__cpe-travaux .cee-logo {
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  width: 200px;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-travaux .cee-logo {
+    bottom: -5px;
+    right: 0;
+    width: 180px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-travaux .cee-logo {
+    bottom: -5px;
+    right: 0;
+    width: 150px;
+  }
+}
+.main_container__cpe-travaux .acces-offre {
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 0.5em 2em;
+  font-size: 18px;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-travaux .acces-offre {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-travaux .acces-offre {
+    font-size: 14px;
+  }
+}
+.main_container__cpe-travaux #a_cpe-travaux {
+  background-color: #fffce5;
+  color: #031837;
+}
+.main_container__cpe-travaux #a_cpe-travaux:hover {
+  background-color: #5bb887;
+  color: #fffce5;
+}
+
+/*###############################*/
+/*######### CPE Services #########*/
+/*###############################*/
+.main_container__cpe-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fffce5;
+  width: 100%;
+  padding: 3em 0 4em;
+}
+.main_container__cpe-services h2 {
+  width: 75%;
+  font-size: 40px;
+  color: #031837;
+  text-align: center;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-services h2 {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-services h2 {
+    font-size: 24px;
+  }
+}
+.main_container__cpe-services .choice__cpe-services {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-services .choice__cpe-services {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.main_container__cpe-services .choice__cpe-services .box-choice-cpe-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+  margin-top: 5em;
+  padding: 1.5em 0 2em;
+  background-color: #031837;
+  border-radius: 15px;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-services .choice__cpe-services .box-choice-cpe-services {
+    margin-top: 3em;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-services .choice__cpe-services .box-choice-cpe-services {
+    margin-top: 1em;
+    width: 95%;
+    padding: 1em 0 1em;
+    border-radius: 10px;
+  }
+}
+.main_container__cpe-services .choice__cpe-services .box-choice-cpe-services h4 {
+  width: 90%;
+  font-size: 26px;
+  color: #fffce5;
+  margin-bottom: 1em;
+  text-align: center;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-services .choice__cpe-services .box-choice-cpe-services h4 {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-services .choice__cpe-services .box-choice-cpe-services h4 {
+    font-size: 18px;
+  }
+}
+.main_container__cpe-services .choice__cpe-services .box-choice-cpe-services .description-box-choice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_container__cpe-services .choice__cpe-services .box-choice-cpe-services .description-box-choice .row-decription-box-choice {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1em;
+  width: 80%;
+}
+.main_container__cpe-services .choice__cpe-services .box-choice-cpe-services .description-box-choice .row-decription-box-choice img {
+  width: 15px;
+  height: 15px;
+  margin-right: 1em;
+  margin-top: 6px;
+  filter: invert(12%) sepia(74%) saturate(5641%) hue-rotate(311deg) brightness(92%) contrast(99%);
+}
+.main_container__cpe-services .choice__cpe-services .box-choice-cpe-services .description-box-choice .row-decription-box-choice p {
+  font-size: 18px;
+  color: #fffce5;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-services .choice__cpe-services .box-choice-cpe-services .description-box-choice .row-decription-box-choice p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-services .choice__cpe-services .box-choice-cpe-services .description-box-choice .row-decription-box-choice p {
+    font-size: 14px;
+  }
+}
+.main_container__cpe-services .choice__cpe-services img {
+  width: 150px;
+  height: 150px;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-services .choice__cpe-services img {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-services .choice__cpe-services img {
+    width: 0;
+    height: 0;
+  }
+}
+.main_container__cpe-services .box-fitt-solution__cpe-services_violet {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #be097f;
+  width: 76%;
+  margin: 4em 0 9em;
+  padding: 0 3px 3px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px #031837;
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-services .box-fitt-solution__cpe-services_violet {
+    border-radius: 10px;
+    width: 90%;
+  }
+}
+.main_container__cpe-services .box-fitt-solution__cpe-services_violet h4 {
+  font-size: 26px;
+  color: #fffce5;
+  margin: 1em 0.5em;
+  text-align: center;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-services .box-fitt-solution__cpe-services_violet h4 {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-services .box-fitt-solution__cpe-services_violet h4 {
+    font-size: 18px;
+  }
+}
+.main_container__cpe-services .box-fitt-solution__cpe-services_violet .box-interieur_creme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  background-color: #fffce5;
+  width: 100%;
+  padding: 2em 5em 4em;
+  border-radius: 15px;
+  border: solid 2px #031837;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-services .box-fitt-solution__cpe-services_violet .box-interieur_creme {
+    padding: 1em 3em 4em;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-services .box-fitt-solution__cpe-services_violet .box-interieur_creme {
+    border-radius: 10px;
+    padding: 1em 1em 4em;
+  }
+}
+.main_container__cpe-services .box-fitt-solution__cpe-services_violet .box-interieur_creme .row-box-interieur {
+  display: flex;
+  align-items: flex-start;
+  margin: 1em 0;
+}
+.main_container__cpe-services .box-fitt-solution__cpe-services_violet .box-interieur_creme .row-box-interieur img {
+  width: 15px;
+  height: 15px;
+  margin-right: 1em;
+  margin-top: 6px;
+  filter: invert(12%) sepia(74%) saturate(5641%) hue-rotate(311deg) brightness(92%) contrast(99%);
+}
+.main_container__cpe-services .box-fitt-solution__cpe-services_violet .box-interieur_creme .row-box-interieur p {
+  font-size: 18px;
+  color: #031837;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-services .box-fitt-solution__cpe-services_violet .box-interieur_creme .row-box-interieur p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-services .box-fitt-solution__cpe-services_violet .box-interieur_creme .row-box-interieur p {
+    font-size: 14px;
+  }
+}
+.main_container__cpe-services .box-fitt-solution__cpe-services_violet .box-interieur_creme .box-economie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  margin: 30px 0 -160px 3%;
+  background-color: #031837;
+  border-radius: 10px;
+  padding: 1em;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-services .box-fitt-solution__cpe-services_violet .box-interieur_creme .box-economie {
+    width: 260px;
+    margin: 20px 0 -160px 3%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-services .box-fitt-solution__cpe-services_violet .box-interieur_creme .box-economie {
+    align-self: center;
+    width: 220px;
+    margin: 10px 0 20px 0;
+  }
+}
+.main_container__cpe-services .box-fitt-solution__cpe-services_violet .box-interieur_creme .box-economie img {
+  width: 100px;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-services .box-fitt-solution__cpe-services_violet .box-interieur_creme .box-economie img {
+    width: 80px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-services .box-fitt-solution__cpe-services_violet .box-interieur_creme .box-economie img {
+    width: 60px;
+  }
+}
+.main_container__cpe-services .box-fitt-solution__cpe-services_violet .box-interieur_creme .box-economie h5 {
+  font-size: 22px;
+  color: #fffce5;
+  text-align: center;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-services .box-fitt-solution__cpe-services_violet .box-interieur_creme .box-economie h5 {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-services .box-fitt-solution__cpe-services_violet .box-interieur_creme .box-economie h5 {
+    font-size: 14px;
+  }
+}
+.main_container__cpe-services .cee-logo {
+  position: absolute;
+  bottom: -5px;
+  right: -20px;
+  width: 200px;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-services .cee-logo {
+    width: 180px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-services .cee-logo {
+    right: 0;
+    width: 150px;
+  }
+}
+.main_container__cpe-services .acces-offre {
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 0.5em 2em;
+  font-size: 18px;
+}
+@media only screen and (max-width: 850px) {
+  .main_container__cpe-services .acces-offre {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container__cpe-services .acces-offre {
+    font-size: 14px;
+  }
+}
+.main_container__cpe-services #a_cpe-services {
+  background-color: #031837;
+  color: #fffce5;
+}
+.main_container__cpe-services #a_cpe-services:hover {
+  background-color: #fffce5;
+  color: #031837;
+}
+
+/*@media only screen and (max-width: 850px) {
+
+        }
+        @media only screen and (max-width: 500px) {
+
+        }*//*# sourceMappingURL=style.css.map */
